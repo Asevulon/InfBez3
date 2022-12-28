@@ -131,6 +131,6 @@ DWORD WINAPI thStart(LPVOID lp)
 	float x = p->rand.Analise(r);
 
 	p->X.Format(L"%.3f", x);
-	//p->UpdateData(FALSE);
+	p->UpdateData(FALSE);
 	return 0;
 }
